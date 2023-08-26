@@ -1,0 +1,129 @@
+.main{
+    display: flex;
+    height: 44rem;
+    
+}
+.sidebar{
+    background-color:rgba(41, 41, 41, 1);
+    width: 15rem;
+    border-top-right-radius: 10px;
+}
+.hero{
+    margin-top: 0px;
+    width: 83rem;
+    height: 44rem;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    background-image: url('../public/background.png');
+}
+.footer{
+    background-color: #f30050;
+    height: 2.16rem;
+}
+/* Styling the search bar container */
+.header1{
+    display: flex;
+    
+  }
+.search-container {
+    position: relative;
+    margin: 10px;
+    margin-top: 0px;
+  }
+  
+  /* Styling the search input field */
+  .search-input {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    background-color: rgba(124, 15, 53, 0.2);
+    color: white;
+
+  }
+  
+  /* Styling the search button */
+  .search-input:hover {
+    background-color: rgba(237, 18, 95, 0.2);
+  }
+
+
+  /* Styling for the custom button */
+.custom-button {
+
+    background: linear-gradient(95.24deg, #7C0F35 7.59%, #581266 104.01%);
+
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 48rem;
+  }
+  
+  /* Hover effect for the button */
+  .custom-button:hover {
+    background-color: rgba(237, 18, 95, 0.2);
+  }
+  .card{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -11px;
+  }
+    .cc{
+    background: #390554;
+    border-radius: 10px;
+    width: 279px;
+    height: 188px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px;
+    }
+
+h1{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.data1{
+    display: flex;
+    color: white;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+.label{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.value{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.smallimg{
+  background-color: #f30050;
+  position: absolute;
+  top: 140px;
+  left: 228px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  border-radius: 24px;
+  align-items: center;
+  
+
+}
+.center1{
+    margin: 5px;
+}
+.pair_address:hover{
+    background-color: #f30050;
+}
+.token_address:hover{
+    background-color: #f30050;
+}
